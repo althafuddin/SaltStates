@@ -1,5 +1,6 @@
 base:
   '*'
-
-'minion1':
-  -apache
+    - users
+    
+  'minion1':
+    - apache
